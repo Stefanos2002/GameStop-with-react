@@ -1,7 +1,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 33%;
+  width: 100%;
   z-index: 1;
   display: flex;
   padding: 15px 15px 15px 5px;
@@ -24,10 +24,16 @@
   height: 42px;
 }
 .search-bar {
-  outline: none;
+  font-size: 20px;
+  width: 60%;
+  padding: 13px;
+  border: 0;
+  background-color: rgb(234, 234, 234);
 }
 
 .search-bar:focus {
+  background-color: white;
+  border: 1;
   outline: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
